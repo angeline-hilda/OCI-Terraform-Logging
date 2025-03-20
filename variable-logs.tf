@@ -10,18 +10,18 @@ variable "log_group_id" {
 */
 
 variable "log_type" {
-    description = "The log tye that the log object is for - whether custom or service"
-  
+  description = "The log tye that the log object is for - whether custom or service"
+
 }
 
 variable "log_is_enabled" {
-  
+
   description = "whether or not this resourcee is currently enabled"
 }
 
 variable "log_retention_duration" {
-    description = "Log retention duration in 30 day increments (30, 60, 90 and so on until 180)"
-  
+  description = "Log retention duration in 30 day increments (30, 60, 90 and so on until 180)"
+
 }
 variable "log_definition" {
   description = "Definition of log sources and their properties"
@@ -30,7 +30,7 @@ variable "log_definition" {
     category    = string
     service     = string
     source_type = string
-    parameters  = optional(string)  # Optional field
+    parameters  = optional(string) # Optional field
   }))
 }
 

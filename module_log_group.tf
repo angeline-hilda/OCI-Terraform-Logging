@@ -1,10 +1,10 @@
-module "log_group"{
-    source = "./modules/logging/log_group"
-    compartment_id = var.compartment_id
-    log_group_display_name = var.log_group_display_name
-    log_group_description = var.log_group_description
+module "log_group" {
+  source                 = "./modules/logging/log_group"
+  compartment_id         = var.compartment_id
+  log_group_display_name = var.log_group_display_name
+  log_group_description  = var.log_group_description
 
-    providers = {
+  providers = {
     oci             = oci
     oci.home_region = oci.home_region
   }
@@ -13,7 +13,7 @@ module "log_group"{
 
 
 output "log_group_id" {
-    value = module.log_group.log_group_id
+  value = module.log_group.log_group_id
 }
 
 
