@@ -16,26 +16,6 @@ terraform {
       source  = "opentofu/oci"
       version = "=6.24.0"
     }
-    /*
-    backend "s3" {
-    bucket                    = "terraaform_backend"
-    region                    = "us-ashburn-1"
-    key                       = "tf.tfstate"
-    skip_region_validation      = true
-    skip_credentials_validation = true
-    skip_requesting_account_id  = true
-    use_path_style              = true
-    skip_s3_checksum            = true
-    skip_metadata_api_check = true
-    access_key = ""
-    secret_key = ""
-
-
-    endpoints = {
-      s3 = "https://sehubjapaciaas.compat.objectstorage.us-ashburn-1.oraclecloud.com"
-    }
- }
- */
 
   }
 
