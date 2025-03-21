@@ -59,6 +59,7 @@ tofu destroy # or terraform destroy
 ## Documentation
 
 - [Object Storage Logs](https://docs.oracle.com/en-us/iaas/Content/Logging/Reference/details_for_object_storage.htm#details_for_object_storage)
+- [OCI Logs](https://docs.oracle.com/en-us/iaas/Content/Logging/Concepts/loggingoverview.htm)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
