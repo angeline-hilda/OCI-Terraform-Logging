@@ -1,5 +1,11 @@
 # Oracle Cloud Infrastructure Terraform Module for Logging - Bucket Access Logs
 
+This repository contains Terraform modules for configuring OCI Logging to capture and manage logs for various OCI services, sepcifically for Object Storage bucket access logs.
+
+Use this module to:
+- Create **Log Groups** to organzie logs
+- Enable **Bucket Access Logs** to track read and write operations
+- Define log definitions to control what should be logged and the log storage duration
 
 ## Pre-requisites
 
@@ -8,6 +14,7 @@ Ensure you have the following before using this module:
 - [OpenTofu](https://opentofu.org/docs/intro/install/) or [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) installed
 - An Oracle Cloud Infrastruture(OCI) Account
 - [Configure OCI CLI](https://docs.oracle.com/en-us/iaas/Content/dev/terraform/tutorials/tf-provider.htm#prepare) with appropriate credentials
+- Required [IAM Policies](https://docs.oracle.com/en-us/iaas/Content/Logging/Task/managinglogs.htm#required_iam_policy)
 
 
 ## Using with Terraform
@@ -50,6 +57,8 @@ tofu destroy # or terraform destroy
 
 
 ## Documentation
+
+- [Object Storage Logs](https://docs.oracle.com/en-us/iaas/Content/Logging/Reference/details_for_object_storage.htm#details_for_object_storage)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
