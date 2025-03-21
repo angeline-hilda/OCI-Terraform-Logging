@@ -3,8 +3,6 @@
 
 ## Pre-requisites
 
-## Pre-requisites
-
 Ensure you have the following before using this module:
 
 - [OpenTofu](https://opentofu.org/docs/intro/install/) or [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) installed
