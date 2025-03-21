@@ -62,4 +62,4 @@ tofu destroy # or terraform destroy
 - [OCI Logs](https://docs.oracle.com/en-us/iaas/Content/Logging/Concepts/loggingoverview.htm)
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/angeline-hilda/OCI-Terraform-Logging/blob/master/LICENSE) file for details.
